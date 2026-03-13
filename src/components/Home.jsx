@@ -5,7 +5,7 @@ import AboutDoctor from "./AboutDoctor";
 import Contact from "./Contact";
 import Footer from "./Footer";
 import Reviews from "./Reviews";
-import img from "/images/main-page.png"
+
 
 function Home() {
   return (
@@ -57,7 +57,7 @@ function Home() {
         {/* Right Side Image */}
         <div className="w-full">
           <img
-            src={img}
+            src="/images/main-page.png"
             alt="Dental care"
             className="w-full h-auto object-cover rounded-3xl shadow-lg"
           />
