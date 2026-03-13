@@ -3,11 +3,11 @@ import React from "react";
 function ClinicGallery() {
 
   const images = [
-     "/images/2.webp",
-    "/images/3.webp",
-    "/images/4.webp",
-    "/images/6.webp",
-    "/images/7.webp",
+     "/public/images/img1.webp",
+    "/images/img2.webp",
+    "/images/img3.webp",
+    "/images/img4.webp",
+    "/images/img5.webp",
     "/images/inner.avif"
   ];
 
