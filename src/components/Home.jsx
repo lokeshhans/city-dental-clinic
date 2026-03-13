@@ -4,6 +4,8 @@ import ClinicGallery from "./ClinicGallery";
 import AboutDoctor from "./AboutDoctor";
 import Contact from "./Contact";
 import Footer from "./Footer";
+import Reviews from "./Reviews";
+import img from "../assets/main-page.png"
 
 function Home() {
   return (
@@ -55,7 +57,7 @@ function Home() {
         {/* Right Side Image */}
         <div className="w-full">
           <img
-            src="/src/assets/main page.png"
+            src={img}
             alt="Dental care"
             className="w-full h-auto object-cover rounded-3xl shadow-lg"
           />
@@ -65,8 +67,8 @@ function Home() {
       <Services />
       <ClinicGallery />
       <AboutDoctor/>
+      <Reviews/>
       <Contact/>
-
       <Footer/> 
     </div>
   );
