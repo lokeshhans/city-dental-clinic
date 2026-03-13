@@ -1,10 +1,10 @@
 import React from "react";
-import img2 from "../assets/2.webp";
-import img3 from "../assets/3.webp";
-import img4 from "../assets/4.webp";
-import img6 from "../assets/6.webp";
-import img7 from "../assets/7.webp";
-import inner from "../assets/inner.avif";
+import img2 from "/images/2.webp";
+import img3 from "/images/3.webp";
+import img4 from "/images/4.webp";
+import img6 from "/images/6.webp";
+import img7 from "/images/7.webp";
+import inner from "/images/inner.avif";
 function ClinicGallery() {
 
   const images = [

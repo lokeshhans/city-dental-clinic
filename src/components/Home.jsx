@@ -5,7 +5,7 @@ import AboutDoctor from "./AboutDoctor";
 import Contact from "./Contact";
 import Footer from "./Footer";
 import Reviews from "./Reviews";
-import img from "../assets/main-page.png"
+import img from "/images/main-page.png"
 
 function Home() {
   return (
